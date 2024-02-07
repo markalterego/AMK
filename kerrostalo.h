@@ -31,7 +31,7 @@ class Katutaso : Kerros
 {
 public:
     Katutaso(void);
-    void maaritaAsunnot(void);
+    void maaritaAsunnot(void) override;
     double laskeKulutus(double maara);
     ~Katutaso(void);
 private:
